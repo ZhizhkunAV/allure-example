@@ -10,7 +10,7 @@ public class ManualTests {
     @Test
     @Manual
     @DisplayName("Мануальный тест - Наличие текста у чекбокса 'Подписаться на рассылку'")
-    public void unsuccessfulAuth() {
+    public void haveSalesMailsTest() {
         step("Открыть стартовую страницу сайта https://www.aviasales.ru");
         step("Переход на страницу 'Профиль'");
         step("Проверка наличия текста 'Подписаться на рассылку'");
