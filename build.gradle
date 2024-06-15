@@ -55,7 +55,7 @@ tasks.withType(Test) {
 }
 
 
-task demoqa_critical_test(type: Test) {
+task aviasales_test(type: Test) {
     useJUnitPlatform {
         includeTags("critical")
     }

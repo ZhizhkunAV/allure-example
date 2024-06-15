@@ -77,7 +77,7 @@ public class CaseTests extends TestBase {
 
     @DisplayName("В выборе 'Путешествия по России' есть город 'Калинигрд'")
     @Tags({
-            @Tag("minor"),
+            @Tag("critical"),
             @Tag("ALL")
     })
 //@Tag("minor")
@@ -101,7 +101,7 @@ public class CaseTests extends TestBase {
 
     @DisplayName("Наличие текста 'Доступ к поддержке и подпискам на цены' в плашке 'Ваш профиль'")
     @Tags({
-            @Tag("minor"),
+            @Tag("critical"),
             @Tag("ALL")
     })
 //@Tag("minor")
@@ -122,7 +122,7 @@ public class CaseTests extends TestBase {
 
     @DisplayName("Кликабельность чекбокса - 'Открыть Ostrovok.ru в новой вкладке' на главной странице")
     @Tags({
-            @Tag("minor"),
+            @Tag("critical"),
             @Tag("ALL")
     })
 //@Tag("minor")
